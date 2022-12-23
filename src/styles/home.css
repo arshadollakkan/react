@@ -1,0 +1,34 @@
+.home{
+    background-color: rgba(83, 44, 16, 0.719);
+}
+.enter{
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.left p{
+    color:rgba(255, 255, 255, 0.74);
+    font-size: 25px;
+    
+}
+.left button{
+    background-color: transparent;
+    color: white;
+    padding: 20px 80px;
+    border: 1px solid white ;
+}
+.movie{
+    padding-left: 27px;
+    
+}
+.movie img{
+    height: 300px;
+    width: 230px;
+    margin: 12px 5px;
+    border-radius: 8px;
+    transition: .3s;
+}
+.movie img:hover{
+    transform: translateY(-3px);
+}
